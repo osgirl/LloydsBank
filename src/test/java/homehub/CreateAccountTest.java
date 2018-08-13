@@ -3,6 +3,7 @@ package homehub;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pages.CreateAccountPage;
 
 public class CreateAccountTest extends BeforeAndAfterMethods{
 

@@ -2,6 +2,7 @@ package homehub;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import pages.CreateAccountPage;
 
 public class DataDrivenCreateAccount extends BeforeAndAfterMethods {
 
