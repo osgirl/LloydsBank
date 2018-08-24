@@ -20,14 +20,18 @@ public class BeforeAndAfterMethods {
         driver = new ChromeDriver();
 
         driver.manage().window().maximize();
-        driver.get("https://www.lloydsbank.nl/");
-        driver.findElement(By.xpath("//div/div[3]/a[@role='button']")).click();
-        driver.findElement(By.xpath("//div/div[1]/a[@role='button']")).click();
+        //driver.get("https://www.lloydsbank.nl/");
+        //driver.findElement(By.xpath("//div/div[3]/a[@role='button']")).click();
+        //driver.findElement(By.xpath("//div/div[1]/a[@role='button']")).click();
 
         //this will switch the driver to the newly opened tab
-        for(String winHandle : driver.getWindowHandles()){
-            driver.switchTo().window(winHandle);
-        }
+        //for(String winHandle : driver.getWindowHandles()){
+          //  driver.switchTo().window(winHandle);
+
+        //or go directly to the test environment
+        driver.get("https://mijnaanvraag-lloydsbank-te27.stater.com/");
+        //driver.get("https://www.google.nl");
+
 
     }
 

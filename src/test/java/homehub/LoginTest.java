@@ -14,6 +14,6 @@ public class LoginTest extends BeforeAndAfterMethods {
 
         String assertString = driver.findElement(By.id("logoutForm")).getText();
         Assert.assertEquals("UITLOGGEN", assertString);
-        System.out.println("The SMS page appears, so the user has logged in and need to give his SMS code");
+        System.out.println("The SMS page appears, so the user has logged in and need to give his SMS code.");
     }
 }
